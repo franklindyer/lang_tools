@@ -1,0 +1,11 @@
+كلب,dog,1
+قطت,cat,1
+جدة,grandma,1
+كمامة,mask,1
+اسم,name,1
+اب,dad,1
+ام,mom,1
+اخ,brother,1
+اخت,sister,1
+صورة,photo,1
+جامعة,university,1

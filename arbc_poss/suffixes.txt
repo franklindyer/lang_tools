@@ -1,0 +1,10 @@
+ي,my,1
+ك,your,1
+ه,his,1
+ها,her,1
+نا,our,1
+كم,y'all's (>2),1
+هم,their (>2 males),1
+هن,their (>2 females),1
+كما,y'all's (2),1
+هما,their (2),1
