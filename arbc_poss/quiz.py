@@ -56,3 +56,4 @@ while num_questions < MIN_QUESTIONS or num_correct/num_questions < MIN_ACCURACY:
     if num_questions % 5 == 0:
         print("Total correct: " + str(num_correct) + ", accuracy: " + str(num_correct/num_questions))
 
+print("Congratulations! You have achieved above 90 percent accuracy.")
