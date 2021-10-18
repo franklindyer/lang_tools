@@ -21,15 +21,15 @@ while num_questions < MIN_QUESTIONS or num_correct/num_questions < MIN_ACCURACY:
         print(number_names[num1] + " ناقص " + number_names[num2] + " يساوي ... ؟")
     else:
         num1 = random.randint(0, 20)
-        num2 = random.randint(0, int(num1/100))
+        num2 = random.randint(0, int(100/num1))
         correct_answer = number_names[num1*num2]
         print(number_names[num1] + " في " + number_names[num2] + " يساوي ... ؟ ")
     answer = input()
     if answer == correct_answer:
         num_correct += 1
-        print("Correct!")
+        print("صحيح!")
     else:
-        print("Incorrect! Correct answer: " + correct_answer)
+        print("غلط! Correct answer: " + correct_answer)
     num_questions += 1
     if num_questions % 5 == 0:
         print("Total correct: " + str(num_correct) + ", accuracy: " + str(num_correct/num_questions))
